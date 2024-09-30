@@ -10,8 +10,8 @@ linkTitle: Начало работы
 description: |
   Пошаговое руководство по начальной настройке и использованию платформы для разработки плагинов для Autodesk Revit.
 
-tags: [test, docs]
-categories: [Examples, Placeholders]
+tags: [docs, start]
+categories: [docs, start]
 
 weight: 30
 ---

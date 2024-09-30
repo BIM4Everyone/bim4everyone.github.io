@@ -10,8 +10,8 @@ linkTitle: Установка
 description: |
   Пошаговые инструкции по установке и настройке платформы для разработки.
 
-tags: [test, docs]
-categories: [Examples, Placeholders]
+tags: [docs, start, install, pyrevit, extensions]
+categories: [docs, start]
 
 weight: 30
 ---
