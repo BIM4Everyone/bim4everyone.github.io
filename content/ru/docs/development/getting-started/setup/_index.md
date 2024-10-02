@@ -18,6 +18,35 @@ weight: 40
 
 Ниже описаны необходимые и рекомендуемые инструменты для разработки платформы. Убедитесь, что перед началом работы на вашем ПК установлен Autodesk Revit, а также установлена сама платформа Bim4Everyone.
 
+# Оглавление
+
+1. **[Установка Git](#установка-git)**
+    - [Настройка Git](#настройка-git)
+2. **[Установка Visual Studio](#установка-visual-studio)**
+    - [Настройка аккаунтов](#настройка-аккаунтов-в-visual-studio)
+    - [Настройка текстового редактора](#настройка-текстового-редактора)
+    - [Настройка автоформатирования при сохранении](#настройка-автоформатирования-при-сохранении)
+    - [Установка плагинов для Visual Studio](#установка-плагинов-для-visual-studio)
+      - [Установка Visual Studio Spell Checker](#установка-visual-studio-spell-checker)
+      - [Установка Editor Guidelines](#установка-editor-guidelines)
+      - [Установка VSColorOutput64](#установка-vscoloroutput64)
+    - [Подключение DevExpress](#подключение-devexpress)
+3. **[Установка dotnet tools](#установка-dotnet-tools)**
+    - [Установка git tool](#установка-git-tool)
+    - [Установка powershell tool](#установка-powershell-tool)
+    - [Установка wix tool](#установка-wix-tool)
+    - [Установка nuke tool](#установка-nuke-tool)
+4. **[Установка Python](#установка-python)**
+5. **[Установка PyCharm](#установка-pycharm)**
+    - [Настройка PyCharm](#настройка-pycharm)
+      - [Добавление RevitAPIStubs](#добавление-revitapistubs)
+      - [Добавление интерпретаторов](#добавление-интерпретаторов)
+      - [PyCharm custom properties](#pycharm-custom-properties)
+6. **[Установка плагинов для Autodesk Revit](#установка-плагинов-для-autodesk-revit)**
+    - [Установка RevitLookup](#установка-revitlookup)
+    - [Установка RevitAddInManager](#установка-revitaddinmanager)
+7. **[Установка notepad++](#установка-notepad)**
+
 # Установка [Git](https://git-scm.com/)
 
 Перейдите по [ссылке](https://git-scm.com/downloads/win) и скачайте установочный файл Git for Windows. Запустите его и следуйте инструкциям по установке. Если вы незнакомы с [Git](https://git-scm.com/), выбирайте значения по умолчанию. Если вы продвинутый пользователь, вы уже сами знаете, что вам нужно.
@@ -42,8 +71,22 @@ git config --global user.email johndoe@example.com
 
 
 
-# Установка [Visual Studio](https://visualstudio.microsoft.com/) (IDE для C#)
-Перейдите по [ссылке](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false) на официальный сайт и скачайте установочный файл для установочной программы. Запустите его и следуйте инструкциям по установке Visual Studio Installer.
+# Установка [Visual Studio](https://visualstudio.microsoft.com/)
+
+Visual Studio - это популярная IDE с поддерживаемой бесплатной версией (Community Edition) для C# и других языков.
+
+## Оглавление
+
+1. [Настройка аккаунтов](#настройка-аккаунтов-в-visual-studio)
+2. [Настройка текстового редактора](#настройка-текстового-редактора)
+3. [Настройка автоформатирования при сохранении](#настройка-автоформатирования-при-сохранении)
+4. [Установка плагинов для Visual Studio](#установка-плагинов-для-visual-studio)
+    * [Установка Visual Studio Spell Checker](#установка-visual-studio-spell-checker)
+    * [Установка Editor Guidelines](#установка-editor-guidelines)
+    * [Установка VSColorOutput64](#установка-vscoloroutput64)
+5. [Подключение DevExpress](#подключение-devexpress)
+
+Перейдите по [ссылке](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false) на официальный сайт и скачайте загрузочный файл программы установки. Запустите его и следуйте инструкциям по установке Visual Studio Installer.
 Когда появится окно для установки Visual Studio Community 2022 выберите следующие опции:
 
 В Workloads выберите `.NET desktop development`:
@@ -92,7 +135,9 @@ git config --global user.email johndoe@example.com
 
 Перед установкой плагинов необходимо `закрыть Visual Studio`.
 
-### Установка Visual Studio Spell Checker (проверка орфографии)
+### Установка Visual Studio Spell Checker
+
+Данный плагин делает проверку орфографии.
 
 Перейдите на [страницу](https://marketplace.visualstudio.com/items?itemName=EWoodruff.VisualStudioSpellCheckerVS2022andLater) плагина в Marketplace и скачайте установочный файл. Запустите его и следуйте инструкциям по установке.
 
@@ -124,7 +169,9 @@ git config --global user.email johndoe@example.com
 
 ![img.png](vs-settings-page-13.png)
 
-### Установка Editor Guidelines (обозначение максимальной длины строки кода)
+### Установка Editor Guidelines
+
+Данный плагин отображает максимальную длину строки в виде вертикальной линии.
 
 Перейдите на [страницу](https://marketplace.visualstudio.com/items?itemName=PaulHarrington.EditorGuidelinesPreview) плагина в Marketplace и скачайте установочный файл. Запустите его и следуйте инструкциям по установке.
 
@@ -132,7 +179,9 @@ git config --global user.email johndoe@example.com
 
 ![img.png](vs-settings-page-14.png)
 
-### Установка VSColorOutput64 (для цветного вывода в консоли)
+### Установка VSColorOutput64
+
+Данный плагин раскрашивает консольный вывод в цвета по типу сообщения вывода.
 
 Перейдите на [страницу](https://marketplace.visualstudio.com/items?itemName=MikeWard-AnnArbor.VSColorOutput64) плагина в Marketplace и скачайте установочный файл. Запустите его и следуйте инструкциям по установке.
 
@@ -188,9 +237,9 @@ dotnet tool install --global Nuke.GlobalTool
 
 
 
-# Установка [python](https://www.python.org/)
+# Установка [Python](https://www.python.org/)
 
-Для разработки плагинов на python необходимо установить последнюю версию `python2.7` (не путать с [IronPython2.7](https://ironpython.net/)). Для этого перейдите по [ссылке](https://www.python.org/downloads/release/python-2718/) и скачайте установочный файл:
+Для разработки плагинов на python необходимо установить последнюю версию `Python2.7` (не путать с [IronPython2.7](https://ironpython.net/)). Для этого перейдите по [ссылке](https://www.python.org/downloads/release/python-2718/) и скачайте установочный файл:
 
 ![img.png](python-setup-page-1.png)
 
@@ -200,7 +249,9 @@ dotnet tool install --global Nuke.GlobalTool
 
 
 
-# Установка [PyCharm](https://www.jetbrains.com/pycharm) (IDE для python)
+# Установка [PyCharm](https://www.jetbrains.com/pycharm)
+
+PyCharm - это популярная IDE с поддерживаемой бесплатной версией (Community Edition) для Python.
 
 Перейдите по [ссылке](https://www.jetbrains.com/pycharm/download/?section=windows) на официальный сайт и скачайте установочный файл PyCharm Community Edition.
 
