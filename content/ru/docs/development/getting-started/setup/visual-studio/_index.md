@@ -16,26 +16,31 @@ categories: [Examples, Placeholders]
 weight: 20
 ---
 
-# Установка [Visual Studio](https://visualstudio.microsoft.com/)
+# [Visual Studio](https://visualstudio.microsoft.com/)
 
-Visual Studio - это популярная IDE с поддерживаемой бесплатной версией (Community Edition) для C# и других языков.
+IDE для разработки на C# с поддерживаемой бесплатной версией (Community Edition).
 
 ## Оглавление
 
-1. [Настройка аккаунтов](#настройка-аккаунтов-в-visual-studio)
-2. [Настройка текстового редактора](#настройка-текстового-редактора)
-3. [Настройка автоформатирования при сохранении](#настройка-автоформатирования-при-сохранении)
-4. [Установка плагинов для Visual Studio](#установка-плагинов-для-visual-studio)
-    - [Установка Visual Studio Spell Checker](#установка-visual-studio-spell-checker)
-    - [Установка Editor Guidelines](#установка-editor-guidelines)
-    - [Установка VSColorOutput64](#установка-vscoloroutput64)
-5. [Установка dotnet tools](#установка-dotnet-tools)
-    - [Установка git tool](#установка-git-tool)
-    - [Установка powershell tool](#установка-powershell-tool)
-    - [Установка wix tool](#установка-wix-tool)
-    - [Установка nuke tool](#установка-nuke-tool)
+1. [Установка](#установка)
+2. [Настройка аккаунтов](#настройка-аккаунтов-в-visual-studio)
+3. [Настройка текстового редактора](#настройка-текстового-редактора)
+4. [Настройка автоформатирования при сохранении](#настройка-автоформатирования-при-сохранении)
+5. [Установка плагинов для Visual Studio](#установка-плагинов-для-visual-studio)
+   - [Установка Visual Studio Spell Checker](#установка-visual-studio-spell-checker)
+   - [Установка Editor Guidelines](#установка-editor-guidelines)
+   - [Установка VSColorOutput64](#установка-vscoloroutput64)
+6. [Установка dotnet tools](#установка-dotnet-tools)
+   - [Установка git tool](#установка-git-tool)
+   - [Установка powershell tool](#установка-powershell-tool)
+   - [Установка wix tool](#установка-wix-tool)
+   - [Установка nuke tool](#установка-nuke-tool)
 
-Перейдите по [ссылке](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false) на официальный сайт и скачайте загрузочный файл программы установки. Запустите его и следуйте инструкциям по установке Visual Studio Installer.
+## Установка
+
+Перейдите по [ссылке](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false)
+на официальный сайт и скачайте загрузочный файл программы установки.
+Запустите его и следуйте инструкциям по установке Visual Studio Installer.
 Когда появится окно для установки Visual Studio Community 2022 выберите следующие опции:
 
 В Workloads выберите `.NET desktop development`:
@@ -58,7 +63,9 @@ Visual Studio - это популярная IDE с поддерживаемой 
 
 ![img.png](vs-settings-page-2.png)
 
-В появившемся окне выберите свой аккаунт Microsoft и введите пароль. Создайте аккаунт, если у вас еще нет аккаунта Microsoft. Далее добавьте аккаунт GitHub. Если вы еще не зарегистрировались на GitHub, сделайте это:
+В появившемся окне выберите свой аккаунт Microsoft и введите пароль.
+Создайте аккаунт, если у вас еще нет аккаунта Microsoft. Далее добавьте аккаунт GitHub.
+Если вы еще не зарегистрировались на GitHub, сделайте это:
 
 ![img.png](vs-settings-page-3.png)
 
@@ -88,9 +95,11 @@ Visual Studio - это популярная IDE с поддерживаемой 
 
 Данный плагин делает проверку орфографии.
 
-Перейдите на [страницу](https://marketplace.visualstudio.com/items?itemName=EWoodruff.VisualStudioSpellCheckerVS2022andLater) плагина в Marketplace и скачайте установочный файл. Запустите его и следуйте инструкциям по установке.
+Перейдите на [страницу](https://marketplace.visualstudio.com/items?itemName=EWoodruff.VisualStudioSpellCheckerVS2022andLater)
+плагина, в Marketplace и скачайте установочный файл.
+Запустите его и следуйте инструкциям по установке.
 
-Чтобы открыть настройки плагина прейдите в `Tools -> Spell Checker -> Edit Global Configuration`:
+Чтобы открыть настройки плагина, прейдите в `Tools -> Spell Checker -> Edit Global Configuration`:
 
 ![img.png](vs-settings-page-8.png)
 
@@ -110,7 +119,8 @@ Visual Studio - это популярная IDE с поддерживаемой 
 
 ![img.png](vs-settings-page-11.png)
 
-На момент написания этой инструкции в плагине есть `особенность`: нельзя сразу добавить слово в словарь, если это слово - название класса/пространства имен и прочее:
+На момент написания этой инструкции в плагине есть `особенность`: нельзя сразу добавить слово в словарь,
+если это слово - название класса/пространства имен и прочее:
 
 ![img.png](vs-settings-page-12.png)
 
@@ -122,9 +132,11 @@ Visual Studio - это популярная IDE с поддерживаемой 
 
 Данный плагин отображает максимальную длину строки в виде вертикальной линии.
 
-Перейдите на [страницу](https://marketplace.visualstudio.com/items?itemName=PaulHarrington.EditorGuidelinesPreview) плагина в Marketplace и скачайте установочный файл. Запустите его и следуйте инструкциям по установке.
+Перейдите на [страницу](https://marketplace.visualstudio.com/items?itemName=PaulHarrington.EditorGuidelinesPreview)
+плагина, в Marketplace и скачайте установочный файл.
+Запустите его и следуйте инструкциям по установке.
 
-Чтобы настроить цвет линии перейдите в `Tools -> Options -> Environment -> Fonts and Colors -> Guideline`:
+Чтобы настроить цвет линии, перейдите в `Tools -> Options -> Environment -> Fonts and Colors -> Guideline`:
 
 ![img.png](vs-settings-page-14.png)
 
@@ -132,31 +144,34 @@ Visual Studio - это популярная IDE с поддерживаемой 
 
 Данный плагин раскрашивает консольный вывод в цвета по типу сообщения вывода.
 
-Перейдите на [страницу](https://marketplace.visualstudio.com/items?itemName=MikeWard-AnnArbor.VSColorOutput64) плагина в Marketplace и скачайте установочный файл. Запустите его и следуйте инструкциям по установке.
+Перейдите на [страницу](https://marketplace.visualstudio.com/items?itemName=MikeWard-AnnArbor.VSColorOutput64)
+плагина, в Marketplace и скачайте установочный файл.
+Запустите его и следуйте инструкциям по установке.
 
-Чтобы настроить плагин перейдите в `Tools -> Options -> VSColorOutput64`:
+Чтобы настроить плагин, перейдите в `Tools -> Options -> VSColorOutput64`:
 
 ![img.png](vs-settings-page-15.png)
 
-# Установка [dotnet tools](https://learn.microsoft.com/en-us/dotnet/core/tools/global-tools)
+## Установка [dotnet tools](https://learn.microsoft.com/en-us/dotnet/core/tools/global-tools)
 
-Откройте [powershell](https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7.4). Это можно сделать сразу в Visual Studio. Для этого перейдите в `View -> Terminal`:
+Откройте [powershell](https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7.4).
+Это можно сделать сразу в Visual Studio. Для этого перейдите в `View -> Terminal`:
 
 ![img.png](dotnet-tools-setup-page-1.png)
 
-## Установка git tool
+### Установка git tool
 
 ```
 dotnet tool install --global GitVersion.Tool
 ```
 
-## Установка powershell tool
+### Установка powershell tool
 
 ```
 dotnet tool install --global PowerShell
 ```
 
-## Установка [wix](https://wixtoolset.org/) tool
+### Установка [wix](https://wixtoolset.org/) tool
 
 ```
 dotnet tool install --global wix --version 4.0.5
@@ -168,7 +183,7 @@ wix extension add -g WixToolset.UI.wixext/4.0.5
 wix extension add -g WixToolset.Util.wixext/4.0.5
 ```
 
-## Установка [nuke](https://nuke.build/) tool
+### Установка [nuke](https://nuke.build/) tool
 
 ```
 dotnet tool install --global Nuke.GlobalTool

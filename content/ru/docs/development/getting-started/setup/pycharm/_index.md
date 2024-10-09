@@ -16,17 +16,19 @@ categories: [Examples, Placeholders]
 weight: 30
 ---
 
-# Оглавление
+# [PyCharm](https://www.jetbrains.com/pycharm)
 
-5. **[Установка PyCharm](#установка-pycharm)**
-    - [Настройка PyCharm](#настройка-pycharm)
-      - [Добавление RevitAPIStubs](#добавление-revitapistubs)
-      - [Добавление интерпретаторов](#добавление-интерпретаторов)
-      - [PyCharm custom properties](#pycharm-custom-properties)
+IDE для разработки на Python с поддерживаемой бесплатной версией (Community Edition).
 
-# Установка [PyCharm](https://www.jetbrains.com/pycharm)
+## Оглавление
 
-PyCharm - это популярная IDE с поддерживаемой бесплатной версией (Community Edition) для Python.
+1. [Установка](#установка)
+2. [Настройка](#настройка)
+   - [Добавление RevitAPIStubs](#добавление-revitapistubs)
+   - [Добавление интерпретаторов](#добавление-интерпретаторов)
+   - [PyCharm custom properties](#pycharm-custom-properties)
+
+## Установка
 
 Перейдите по [ссылке](https://www.jetbrains.com/pycharm/download/?section=windows) на официальный сайт и скачайте установочный файл PyCharm Community Edition.
 
@@ -38,11 +40,12 @@ PyCharm - это популярная IDE с поддерживаемой бес
 
 После установки `перезапустите ПК`
 
-## Настройка PyCharm
+## Настройка
 
 ### Добавление RevitAPIStubs
 
-Скачайте архив с RevitAPIStubs по [ссылке](https://github.com/BIMOpenGroup/RevitAPIStubs/releases/tag/v1.0.0). В этом архиве находится python код, который помогает PyCharm делать подсказки по API Revit.
+Скачайте архив с RevitAPIStubs по [ссылке](https://github.com/BIMOpenGroup/RevitAPIStubs/releases/tag/v1.0.0). В этом архиве находится python код,
+который помогает PyCharm делать подсказки по API Revit.
 
 ![img.png](pycharm-settings-page-1.png)
 
@@ -66,11 +69,16 @@ PyCharm - это популярная IDE с поддерживаемой бес
 
 ![img.png](pycharm-settings-page-5.png)
 
-В открывшемся окне выберите раздел Virtual Environment. В качестве Base interpreter укажите путь к python.exe (python2.7 который вы устанавливали выше). Т.к. stub файлы различные для каждой версии Revit, то под каждую версию Revit необходимо создавать свой интерпретатор. Соответственно надо создать папки для интерпретаторов под все версии Revit, которые установлены у вас. При добавлении очередного интерпретатора указываете соответствующую папку в Location.
+В открывшемся окне выберите раздел Virtual Environment. В качестве Base interpreter укажите путь к python.exe
+(python2.7 который вы устанавливали выше). Т.к. stub файлы различные для каждой версии Revit,
+то под каждую версию Revit необходимо создавать свой интерпретатор.
+Соответственно, надо создать папки для интерпретаторов под все версии Revit, которые установлены у вас.
+При добавлении очередного интерпретатора указывайте соответствующую папку в Location.
 
 ![img.png](pycharm-settings-page-6.png)
 
-Затем необходимо настроить пути для каждого интерпретатора. Чтобы открыть окно настроек нажмите ПКМ на интерпретатор и выберите `Show Interpreter Paths`:
+Затем необходимо настроить пути для каждого интерпретатора. Чтобы открыть окно настроек, нажмите ПКМ на интерпретатор и 
+выберите `Show Interpreter Paths`:
 
 ![img.png](pycharm-settings-page-7.png)
 
@@ -78,8 +86,10 @@ PyCharm - это популярная IDE с поддерживаемой бес
 
 - путь к соответствующим stubs файлам из архива, находящимся в revit/20xx (будет разный для каждого интерпретатора).
 - путь к common файлам также из архива (будет одинаковый для всех интерпретаторов).
-- путь к папке `%AppData%\pyRevit-Master\pyrevitlib` (будет одинаковый для всех интерпретаторов), которая создается при установке pyRevit.
-- путь к папке `%AppData%\pyRevit\Extensions\BIM4Everyone.lib` (будет одинаковый для всех интерпретаторов), которая создается при установке платформы Bim4Everyone.
+- путь к папке `%AppData%\pyRevit-Master\pyrevitlib` (будет одинаковый для всех интерпретаторов), 
+    которая создается при установке pyRevit.
+- путь к папке `%AppData%\pyRevit\Extensions\BIM4Everyone.lib` (будет одинаковый для всех интерпретаторов),
+    которая создается при установке платформы Bim4Everyone.
 
 ![img.png](pycharm-settings-page-8.png)
 
@@ -89,7 +99,7 @@ PyCharm - это популярная IDE с поддерживаемой бес
 
 ![img.png](pycharm-settings-page-9.png)
 
-И замените существующий весь текст на следующий:
+И замените весь существующий текст на следующий:
 
 ```
 #---------------------------------------------------------------------

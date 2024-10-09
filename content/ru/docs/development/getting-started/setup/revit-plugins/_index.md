@@ -16,12 +16,30 @@ categories: [Examples, Placeholders]
 weight: 40
 ---
 
-# Установка плагинов для Autodesk Revit
+# Плагины для Autodesk Revit
 
-## Установка [RevitLookup](https://github.com/jeremytammik/RevitLookup)
+В разработке плагинов для платформы очень помогают существующие плагины от других разработчиков.
+На данной странице приведены одни из самых полезных из них.
 
-Перейдите на страницу [релизов](https://github.com/jeremytammik/RevitLookup/releases) и скачайте установочные файлы для каждой версии Revit, которая у вас установлена. Запустите установочные файлы и следуйте инструкциям по установке.
+## Оглавление
 
-## Установка [RevitAddInManager](https://github.com/chuongmep/RevitAddInManager)
+1. [RevitLookup](#revitlookup)
+2. [RevitAddInManager](#revitaddinmanager)
 
-Перейдите на страницу [релизов](https://github.com/chuongmep/RevitAddInManager/releases) и скачайте последнюю версию установочного файла. Запустите его и следуйте инструкциям по установке.
+## [RevitLookup](https://github.com/jeremytammik/RevitLookup)
+
+Данный плагин предоставляет широкие возможности для просмотра и навигации по API объектам в Revit.
+
+### Установка
+
+Перейдите на страницу [релизов](https://github.com/jeremytammik/RevitLookup/releases) и скачайте установочные файлы для каждой версии Revit, которая у вас установлена.
+Запустите установочные файлы и следуйте инструкциям по установке.
+
+## [RevitAddInManager](https://github.com/chuongmep/RevitAddInManager)
+
+Данный плагин позволяет запускать собранные dll плагинов для их дальнейшей отладки в IDE.
+
+### Установка
+
+Перейдите на страницу [релизов](https://github.com/chuongmep/RevitAddInManager/releases) и скачайте последнюю версию установочного файла.
+Запустите его и следуйте инструкциям по установке.
