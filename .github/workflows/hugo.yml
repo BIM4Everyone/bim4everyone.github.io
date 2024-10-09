@@ -5,6 +5,11 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
+  
+  # Runs on open or synchronize pull request for tests
+  pull_request:
+    types: [ opened, synchronize ]
+    branches: ["main"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -37,19 +42,25 @@ jobs:
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+      
       - name: Install Dart Sass
         run: sudo snap install dart-sass
+      
       - name: Checkout
         uses: actions/checkout@v4
         with:
           submodules: recursive
+      
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      
       - name: Install postcss
         run: npm i -D postcss postcss-cli autoprefixer
+      
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
@@ -58,6 +69,7 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -65,6 +77,7 @@ jobs:
 
   # Deployment job
   deploy:
+    if: github.ref_name == github.event.repository.default_branch
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
