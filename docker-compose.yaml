@@ -1,9 +1,9 @@
 services:
 
   site:
-    container_name: bim4everyone
+    container_name: bim4everyone-docs
     
-    image: bim4everyone
+    image: bim4everyone-docs:latest
     build:
       context: .
     command: server
