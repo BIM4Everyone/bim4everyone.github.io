@@ -135,18 +135,13 @@ weight: 20
 
 ![img.png](vs-settings-page-15.png)
 
-## Установка [dotnet tools](https://learn.microsoft.com/en-us/dotnet/core/tools/global-tools)
+## Установка dotnet tools
 
-Откройте [powershell](https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7.4).
+Чтобы установить [dotnet tools](https://learn.microsoft.com/en-us/dotnet/core/tools/global-tools), 
+откройте [powershell](https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7.4).
 Это можно сделать сразу в Visual Studio. Для этого перейдите в `View -> Terminal`:
 
 ![img.png](dotnet-tools-setup-page-1.png)
-
-### Установка git tool
-
-```
-dotnet tool install --global GitVersion.Tool
-```
 
 ### Установка powershell tool
 
@@ -154,19 +149,9 @@ dotnet tool install --global GitVersion.Tool
 dotnet tool install --global PowerShell
 ```
 
-### Установка [wix](https://wixtoolset.org/) tool
+### Установка nuke tool
 
-```
-dotnet tool install --global wix --version 4.0.5
-```
-```
-wix extension add -g WixToolset.UI.wixext/4.0.5
-```
-```
-wix extension add -g WixToolset.Util.wixext/4.0.5
-```
-
-### Установка [nuke](https://nuke.build/) tool
+[Nuke](https://nuke.build/) - это утилита для автоматизации сборки и публикации проектов.
 
 ```
 dotnet tool install --global Nuke.GlobalTool

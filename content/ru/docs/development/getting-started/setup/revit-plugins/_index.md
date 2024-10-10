@@ -19,18 +19,18 @@ weight: 40
 В разработке плагинов для платформы очень помогают существующие плагины от других разработчиков.
 На данной странице приведены одни из самых полезных из них.
 
-## [RevitLookup](https://github.com/jeremytammik/RevitLookup)
+## RevitLookup
 
-Данный плагин предоставляет широкие возможности для просмотра и навигации по API объектам в Revit.
+[RevitLookup](https://github.com/jeremytammik/RevitLookup) предоставляет широкие возможности для просмотра и навигации по API объектам в Revit.
 
 ### Установка
 
 Перейдите на страницу [релизов](https://github.com/jeremytammik/RevitLookup/releases) и скачайте установочные файлы для каждой версии Revit, которая у вас установлена.
 Запустите установочные файлы и следуйте инструкциям по установке.
 
-## [RevitAddInManager](https://github.com/chuongmep/RevitAddInManager)
+## RevitAddInManager
 
-Данный плагин позволяет запускать собранные dll плагинов для их дальнейшей отладки в IDE.
+[RevitAddInManager](https://github.com/chuongmep/RevitAddInManager) позволяет запускать собранные `dll` плагинов для их дальнейшей отладки в IDE.
 
 ### Установка
 

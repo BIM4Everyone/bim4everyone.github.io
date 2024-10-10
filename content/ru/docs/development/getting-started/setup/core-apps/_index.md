@@ -16,9 +16,9 @@ categories: [Examples, Placeholders]
 weight: 10
 ---
 
-## [Git](https://git-scm.com/)
+## Git
 
-Распределенная система контроля версий файлов.
+[Git](https://git-scm.com/) - это распределенная система контроля версий файлов.
 
 ### Установка Git
 
@@ -44,9 +44,9 @@ git config --global user.name "johndoe"
 git config --global user.email johndoe@example.com
 ```
 
-## [Python](https://www.python.org/)
+## Python
 
-Язык программирования, на котором можно легко и быстро писать простые плагины.
+[Python](https://www.python.org/) - это язык программирования, на котором можно легко и быстро писать простые плагины.
 
 ### Установка Python
 
@@ -61,7 +61,7 @@ git config --global user.email johndoe@example.com
 
 ## Notepad++
 
-Очень удобный текстовый редактор для любого формата файлов.
+[Notepad++](https://notepad-plus-plus.org/) - это очень удобный бесплатный текстовый редактор для любого формата файлов.
 
 ### Установка notepad++
 
