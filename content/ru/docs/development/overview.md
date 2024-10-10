@@ -10,8 +10,8 @@ linkTitle: Обзор
 description: |
   Ознакомьтесь с документацией разработчика платформы Bim4Everyone.
 
-tags: [docs, overview]
-categories: [docs, overview, revit, autodesk, bim4everyone]
+tags: [docs, overview, revit, autodesk, bim4everyone, tools, pyRevit]
+categories: [docs, overview]
 
 weight: 10
 ---
