@@ -17,12 +17,14 @@ weight: 10
 ---
 
 # О Bim4Everyone
-Вы можете использовать платформу Bim4Everyone 
+Вы можете использовать платформу `Bim4Everyone` 
 для разработки собственных скриптов на `python` и `C#`,
 для реализации автоматизации собственных процессов в компании.
 
-Основой нашей платформы является [pyRevit](https://www.pyrevitlabs.io/),
-в котором уже реализовано создание на основе структуры папок кнопок на основной панели Autodesk Revit.
+Основой платформы является [pyRevit](https://www.pyrevitlabs.io/),
+в котором уже реализовано создание на основе структуры папок кнопок на ленте инструментов Autodesk Revit.
+
+Платформа поддерживает Revit 2022, Revit 2023, Revit 2024.
 
 # Начало работы с платформой
 
@@ -41,6 +43,7 @@ weight: 10
 Список библиотек, сайтов и утилит, облегчающих написание скриптов для платформы:
  - [dosymep.Revit](https://dosymep.net/dosymep.Revit)
  - [dosymep.SimpleServices](https://dosymep.net/dosymep.SimpleServices)
+ - [dosymep.Autodesk](https://github.com/dosymep/dosymep.Autodesk)
  - [Ninject](https://github.com/ninject/Ninject)
  - [Revit API Docs](https://www.revitapidocs.com/)
  - [RevitLookup](https://github.com/jeremytammik/RevitLookup)
