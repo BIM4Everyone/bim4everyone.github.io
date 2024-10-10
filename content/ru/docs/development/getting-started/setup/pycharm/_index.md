@@ -35,7 +35,7 @@ weight: 30
 
 ### Добавление RevitAPIStubs
 
-Скачайте архив с RevitAPIStubs по [ссылке](https://github.com/BIMOpenGroup/RevitAPIStubs/releases/tag/v1.0.0). В этом архиве находится python код,
+Скачайте архив с RevitAPIStubs по [ссылке](https://github.com/BIMOpenGroup/RevitAPIStubs/releases/latest). В этом архиве находится python код,
 который помогает PyCharm делать подсказки по API Revit.
 
 ![img.png](pycharm-settings-page-1.png)
