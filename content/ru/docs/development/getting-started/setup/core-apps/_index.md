@@ -38,7 +38,7 @@ weight: 10
 git config --global user.name "johndoe"
 ```
 
-В ```user.email``` напишите свой email, который привязан к [GitHub](https://github.com/):
+В ```user.email``` напишите свой публичный email, который привязан к [GitHub](https://github.com/):
 
 ```
 git config --global user.email johndoe@example.com
