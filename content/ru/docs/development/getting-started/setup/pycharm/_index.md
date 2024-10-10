@@ -5,7 +5,7 @@ draft: false
 params:
   author: dosymep
   
-title: Установка PyCharm
+title: PyCharm
 linkTitle: PyCharm
 description: |
   Руководство по установке и настройке PyCharm.
@@ -16,17 +16,8 @@ categories: [Examples, Placeholders]
 weight: 30
 ---
 
-# [PyCharm](https://www.jetbrains.com/pycharm)
-
-IDE для разработки на Python с поддерживаемой бесплатной версией (Community Edition).
-
-## Оглавление
-
-1. [Установка](#установка)
-2. [Настройка](#настройка)
-   - [Добавление RevitAPIStubs](#добавление-revitapistubs)
-   - [Добавление интерпретаторов](#добавление-интерпретаторов)
-   - [PyCharm custom properties](#pycharm-custom-properties)
+[PyCharm](https://www.jetbrains.com/pycharm) - это IDE для разработки на Python
+с поддерживаемой бесплатной версией (Community Edition).
 
 ## Установка
 

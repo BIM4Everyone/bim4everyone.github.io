@@ -5,30 +5,16 @@ draft: false
 params:
   author: dosymep
   
-title: Установка Git, Python, Notepad++
+title: Необходимое ПО
 linkTitle: Необходимое ПО
 description: |
-  Руководство по установке и настройке Git, Python, Notepad++.
+  Руководство по установке и настройке необходимого ПО
 
 tags: [test, docs]
 categories: [Examples, Placeholders]
 
 weight: 10
 ---
-
-# Необходимое ПО
-
-В данном разделе описана установка и настройка необходимого ПО.
-
-## Оглавление
-
-1. [Git](#git)
-   - [Установка Git](#установка-git)
-   - [Настройка Git](#настройка-git)
-2. [Python](#python)
-   - [Установка Python](#установка-python)
-3. [Notepad++](#notepad)
-   - [Установка Notepad++](#установка-notepad)
 
 ## [Git](https://git-scm.com/)
 

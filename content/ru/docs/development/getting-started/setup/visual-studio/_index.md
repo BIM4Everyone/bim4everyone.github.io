@@ -5,7 +5,7 @@ draft: false
 params:
   author: dosymep
   
-title: Установка Visual Studio
+title: Visual Studio
 linkTitle: Visual Studio
 description: |
   Руководство по установке и настройке Visual Studio.
@@ -16,25 +16,8 @@ categories: [Examples, Placeholders]
 weight: 20
 ---
 
-# [Visual Studio](https://visualstudio.microsoft.com/)
-
-IDE для разработки на C# с поддерживаемой бесплатной версией (Community Edition).
-
-## Оглавление
-
-1. [Установка](#установка)
-2. [Настройка аккаунтов](#настройка-аккаунтов-в-visual-studio)
-3. [Настройка текстового редактора](#настройка-текстового-редактора)
-4. [Настройка автоформатирования при сохранении](#настройка-автоформатирования-при-сохранении)
-5. [Установка плагинов для Visual Studio](#установка-плагинов-для-visual-studio)
-   - [Установка Visual Studio Spell Checker](#установка-visual-studio-spell-checker)
-   - [Установка Editor Guidelines](#установка-editor-guidelines)
-   - [Установка VSColorOutput64](#установка-vscoloroutput64)
-6. [Установка dotnet tools](#установка-dotnet-tools)
-   - [Установка git tool](#установка-git-tool)
-   - [Установка powershell tool](#установка-powershell-tool)
-   - [Установка wix tool](#установка-wix-tool)
-   - [Установка nuke tool](#установка-nuke-tool)
+[Visual Studio](https://visualstudio.microsoft.com/) - это IDE для разработки на C#
+с поддерживаемой бесплатной версией (Community Edition).
 
 ## Установка
 

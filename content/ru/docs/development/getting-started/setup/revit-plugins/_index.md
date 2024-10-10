@@ -5,7 +5,7 @@ draft: false
 params:
   author: dosymep
   
-title: Установка плагинов для Autodesk Revit
+title: Плагины для Autodesk Revit
 linkTitle: Плагины для Revit
 description: |
   Руководство по установке плагинов для Autodesk Revit, помогающих в разработке на платформе.
@@ -16,15 +16,8 @@ categories: [Examples, Placeholders]
 weight: 40
 ---
 
-# Плагины для Autodesk Revit
-
 В разработке плагинов для платформы очень помогают существующие плагины от других разработчиков.
 На данной странице приведены одни из самых полезных из них.
-
-## Оглавление
-
-1. [RevitLookup](#revitlookup)
-2. [RevitAddInManager](#revitaddinmanager)
 
 ## [RevitLookup](https://github.com/jeremytammik/RevitLookup)
 
