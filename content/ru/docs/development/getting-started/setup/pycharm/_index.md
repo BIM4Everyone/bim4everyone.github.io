@@ -23,11 +23,11 @@ weight: 30
 
 Перейдите по [ссылке](https://www.jetbrains.com/pycharm/download/?section=windows) на официальный сайт и скачайте установочный файл `PyCharm Community Edition`.
 
-<img src="pycharm-setup-page-0.png" width="450"/>
+<img src="pycharm-setup-page-0.png" width="300"/>
 
  Запустите его и следуйте инструкциям по установке. Выберите следующие опции:
 
-<img src="pycharm-setup-page-1.png" width="550"/>
+<img src="pycharm-setup-page-1.png" width="400"/>
 
 После установки `перезапустите ПК`
 
@@ -38,11 +38,11 @@ weight: 30
 Скачайте архив с RevitAPIStubs по [ссылке](https://github.com/BIMOpenGroup/RevitAPIStubs/releases/latest). В этом архиве находится python код,
 который помогает PyCharm делать подсказки по API Revit.
 
-<img src="pycharm-settings-page-1.png" width="900"/>
+<img src="pycharm-settings-page-1.png" width="700"/>
 
 Распакуйте содержимое архива. Папки `common` и `revit`:
 
-<img src="pycharm-settings-page-2.png" width="600"/>
+<img src="pycharm-settings-page-2.png" width="450"/>
 
 ### Добавление интерпретаторов
 
@@ -50,15 +50,15 @@ weight: 30
 
 В главном окне при запуске PyCharm перейдите в раздел `Customize -> All settings`:
 
-<img src="pycharm-settings-page-3.png" width="900"/>
+<img src="pycharm-settings-page-3.png" width="600"/>
 
 Затем перейдите в раздел `Python Interpreter -> Show All`
 
-<img src="pycharm-settings-page-4.png" width="900"/>
+<img src="pycharm-settings-page-4.png" width="600"/>
 
 Нажмите `+` чтобы добавить интерпретатор:
 
-<img src="pycharm-settings-page-5.png" width="900"/>
+<img src="pycharm-settings-page-5.png" width="600"/>
 
 В открывшемся окне выберите раздел Virtual Environment. В качестве Base interpreter укажите путь к `python.exe`
 (`python2.7` который вы устанавливали выше). Т.к. stub файлы различные для каждой версии Revit,
@@ -66,12 +66,12 @@ weight: 30
 Соответственно, надо создать папки для интерпретаторов под все версии Revit, которые установлены у вас.
 При добавлении очередного интерпретатора указывайте соответствующую папку в `Location`.
 
-<img src="pycharm-settings-page-6.png" width="900"/>
+<img src="pycharm-settings-page-6.png" width="600"/>
 
 Затем необходимо настроить пути для каждого интерпретатора. Чтобы открыть окно настроек, нажмите ПКМ на интерпретатор и 
 выберите `Show Interpreter Paths`:
 
-<img src="pycharm-settings-page-7.png" width="900"/>
+<img src="pycharm-settings-page-7.png" width="600"/>
 
 Для каждого добавленного интерпретатора необходимо `добавить 4 пути`:
 
@@ -82,13 +82,13 @@ weight: 30
 - путь к папке `%AppData%\pyRevit\Extensions\BIM4Everyone.lib` (будет одинаковый для всех интерпретаторов),
     которая создается при установке платформы Bim4Everyone.
 
-<img src="pycharm-settings-page-8.png" width="600"/>
+<img src="pycharm-settings-page-8.png" width="450"/>
 
 ### PyCharm custom properties
 
 Перейдите в раздел `Edit Custom Properties`:
 
-<img src="pycharm-settings-page-9.png" width="900"/>
+<img src="pycharm-settings-page-9.png" width="600"/>
 
 И замените весь существующий текст на следующий:
 

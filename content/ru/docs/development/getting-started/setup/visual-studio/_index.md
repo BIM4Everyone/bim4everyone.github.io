@@ -28,11 +28,11 @@ weight: 20
 
 В Workloads выберите `.NET desktop development`:
 
-<img src="vs-setup-page-1.png" width="1100"/>
+<img src="vs-setup-page-1.png" width="900"/>
 
 В Language packs выберите `English`:
 
-<img src="vs-setup-page-2.png" width="1100"/>
+<img src="vs-setup-page-2.png" width="900"/>
 
 После завершения установки рекомендуется `перезапустить ПК`.
 
@@ -40,37 +40,37 @@ weight: 20
 
 При первом запуске справа снизу выберите `Continue without code`:
 
-<img src="vs-settings-page-1.png" width="900"/>
+<img src="vs-settings-page-1.png" width="600"/>
 
 В правом верхнем углу нажмите `Sign in`:
 
-<img src="vs-settings-page-2.png" width="450"/>
+<img src="vs-settings-page-2.png" width="300"/>
 
 В появившемся окне выберите свой аккаунт Microsoft и введите пароль.
 Создайте аккаунт, если у вас еще нет аккаунта Microsoft. Далее добавьте аккаунт GitHub.
 Если вы еще не зарегистрировались на GitHub, сделайте это:
 
-<img src="vs-settings-page-3.png" width="450"/>
+<img src="vs-settings-page-3.png" width="300"/>
 
 ## Настройка текстового редактора
 
 Перейдите в `Tools -> Options` и задайте настройки, которые будут вам удобны.
 
-<img src="vs-settings-page-4.png" width="700"/>
+<img src="vs-settings-page-4.png" width="500"/>
 
 Пример настроек текстового редактора (`Text Editor`):
 
-<img src="vs-settings-page-5.png" width="1100"/>
+<img src="vs-settings-page-5.png" width="500"/>
 
 ## Настройка автоформатирования при сохранении
 
 Чтобы код автоматически форматировался в соответствии с [.editorconfig](https://editorconfig.org/), необходимо включить флаг в настройках:
 
-<img src="vs-settings-page-6.png" width="1100"/>
+<img src="vs-settings-page-6.png" width="500"/>
 
 Нажав на `Configure Code Cleanup` можно задать дополнительные действия:
 
-<img src="vs-settings-page-7.png" width="700"/>
+<img src="vs-settings-page-7.png" width="500"/>
 
 ## Установка плагинов для Visual Studio
 
@@ -86,15 +86,15 @@ weight: 20
 
 Чтобы открыть настройки плагина, прейдите в `Tools -> Spell Checker -> Edit Global Configuration`:
 
-<img src="vs-settings-page-8.png" width="700"/>
+<img src="vs-settings-page-8.png" width="500"/>
 
 Добавьте словари английского и русского языка:
 
-<img src="vs-settings-page-9.png" width="1100"/>
+<img src="vs-settings-page-9.png" width="900"/>
 
 Настройте опции проверки орфографии:
 
-<img src="vs-settings-page-10.png" width="1100"/>
+<img src="vs-settings-page-10.png" width="900"/>
 
 `Сохраните настройки`.
 
@@ -102,16 +102,16 @@ weight: 20
 
 Чтобы добавить слово в словарь исключений необходимо нажать `Alt+Enter`:
 
-<img src="vs-settings-page-11.png" width="450"/>
+<img src="vs-settings-page-11.png" width="300"/>
 
 На момент написания этой инструкции в плагине есть `особенность`: нельзя сразу добавить слово в словарь,
 если это слово - название класса/пространства имен и прочее:
 
-<img src="vs-settings-page-12.png" width="450"/>
+<img src="vs-settings-page-12.png" width="300"/>
 
 Обойти это можно, написав комментарий с этим словом, и добавив слово из комментария:
 
-<img src="vs-settings-page-13.png" width="450"/>
+<img src="vs-settings-page-13.png" width="300"/>
 
 ### Установка Editor Guidelines
 
@@ -123,7 +123,7 @@ weight: 20
 
 Чтобы настроить цвет линии, перейдите в `Tools -> Options -> Environment -> Fonts and Colors -> Guideline`:
 
-<img src="vs-settings-page-14.png" width="1100"/>
+<img src="vs-settings-page-14.png" width="500"/>
 
 ### Установка VSColorOutput64
 
@@ -135,7 +135,7 @@ weight: 20
 
 Чтобы настроить плагин, перейдите в `Tools -> Options -> VSColorOutput64`:
 
-<img src="vs-settings-page-15.png" width="1100"/>
+<img src="vs-settings-page-15.png" width="500"/>
 
 ## Установка dotnet tools
 
@@ -143,7 +143,7 @@ weight: 20
 откройте [powershell](https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7.4).
 Это можно сделать сразу в Visual Studio. Для этого перейдите в `View -> Terminal`:
 
-<img src="dotnet-tools-setup-page-1.png" width="600"/>
+<img src="dotnet-tools-setup-page-1.png" width="400"/>
 
 ### Установка powershell tool
 
