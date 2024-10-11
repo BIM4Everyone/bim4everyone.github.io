@@ -10,8 +10,8 @@ linkTitle: Плагины для Revit
 description: |
   Руководство по установке плагинов для Autodesk Revit, помогающих в разработке на платформе.
 
-tags: [test, docs]
-categories: [Examples, Placeholders]
+tags: [docs, setup, RevitLookup, RevitAddInManager, revit plugins]
+categories: [docs, setup, revit plugins]
 
 weight: 40
 ---

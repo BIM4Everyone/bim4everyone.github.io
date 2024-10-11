@@ -10,8 +10,8 @@ linkTitle: Необходимое ПО
 description: |
   Руководство по установке и настройке необходимого ПО
 
-tags: [test, docs]
-categories: [Examples, Placeholders]
+tags: [docs, setup, git, config, python, notepad]
+categories: [docs, setup, environment]
 
 weight: 10
 ---
