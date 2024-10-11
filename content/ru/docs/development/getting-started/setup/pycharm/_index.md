@@ -10,7 +10,7 @@ linkTitle: PyCharm
 description: |
   Руководство по установке и настройке PyCharm.
 
-tags: [docs, setup, PyCharm, ide, interpreter, custom properties]
+tags: [docs, setup, PyCharm, ide, interpreter, custom properties, python]
 categories: [docs, setup, PyCharm]
 
 weight: 30
