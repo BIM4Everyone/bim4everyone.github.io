@@ -10,7 +10,7 @@ linkTitle: Visual Studio
 description: |
   Руководство по установке и настройке Visual Studio.
 
-tags: [docs, setup, visual studio, VS 2022, plugins, options, settings, code cleanup, autoformat, reformat, actions on save, Visual Studio Spell Checker, spell check, spelling, Editor Guidelines, line max length, VSColorOutput64, color output, dotnet tools, powershell, nuke]
+tags: [docs, setup, ide, visual studio, VS 2022, plugins, options, settings, code cleanup, autoformat, reformat, actions on save, Visual Studio Spell Checker, spell check, spelling, Editor Guidelines, line max length, VSColorOutput64, color output, dotnet tools, powershell, nuke]
 categories: [docs, setup, visual studio]
 
 weight: 20
