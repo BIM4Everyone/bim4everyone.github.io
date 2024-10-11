@@ -53,7 +53,7 @@ git config --global user.email johndoe@example.com
 Для разработки плагинов на python, необходимо установить последнюю версию `Python2.7` (не путать с [IronPython2.7](https://ironpython.net/)).
 Для этого перейдите по [ссылке](https://www.python.org/downloads/release/python-2718/) и скачайте установочный файл:
 
-![img.png](python-setup-page-1.png)
+<img src="python-setup-page-1.png" width="900"/>
 
 Запустите его и следуйте инструкциям по установке. Выбирайте значения по умолчанию.
 
