@@ -24,7 +24,7 @@ weight: 20
 Перейдите по [ссылке](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false)
 на официальный сайт и скачайте загрузочный файл программы установки.
 Запустите его и следуйте инструкциям по установке Visual Studio Installer.
-Когда появится окно для установки Visual Studio Community 2022 выберите следующие опции:
+Когда появится окно для установки Visual Studio Community 2022, выберите следующие опции:
 
 В Workloads выберите `.NET desktop development`:
 
@@ -100,7 +100,7 @@ weight: 20
 
 #### Добавление слов в словарь исключений
 
-Чтобы добавить слово в словарь исключений необходимо нажать `Alt+Enter`:
+Чтобы добавить слово в словарь исключений, необходимо нажать `Alt+Enter`:
 
 <img src="vs-settings-page-11.png" width="300"/>
 

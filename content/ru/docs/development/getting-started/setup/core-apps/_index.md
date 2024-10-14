@@ -24,7 +24,7 @@ weight: 10
 
 Перейдите по [ссылке](https://git-scm.com/downloads/win) и скачайте установочный файл Git for Windows.
 Запустите его и следуйте инструкциям по установке. Если вы незнакомы с [Git](https://git-scm.com/), выбирайте значения по умолчанию.
-Если вы продвинутый пользователь, вы уже сами знаете, что вам нужно.
+Если вы продвинутый пользователь, то вы уже сами знаете, что вам нужно.
 
 `Перезапустите ПК`.
 
@@ -50,7 +50,7 @@ git config --global user.email johndoe@example.com
 
 ### Установка Python
 
-Для разработки плагинов на python, необходимо установить последнюю версию `Python2.7` (не путать с [IronPython2.7](https://ironpython.net/)).
+Для разработки плагинов на python необходимо установить последнюю версию `Python2.7` (не путать с [IronPython2.7](https://ironpython.net/)).
 Для этого перейдите по [ссылке](https://www.python.org/downloads/release/python-2718/) и скачайте установочный файл:
 
 <img src="python-setup-page-1.png" width="700"/>
@@ -61,7 +61,7 @@ git config --global user.email johndoe@example.com
 
 ## Notepad++
 
-[Notepad++](https://notepad-plus-plus.org/) - это очень удобный бесплатный текстовый редактор для любого формата файлов.
+[Notepad++](https://notepad-plus-plus.org/) - это удобный бесплатный текстовый редактор для любого формата файлов.
 
 ### Установка notepad++
 
