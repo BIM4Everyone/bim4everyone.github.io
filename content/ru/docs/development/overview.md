@@ -31,7 +31,7 @@ weight: 10
 
 Если вы здесь в первый раз, то будет полезно обратиться
 к руководству `Начало работы`, `Уроки` или `Примеры`
-по работе в платформе:
+по работе с платформой:
 - [Начало работ](getting-started)
 - [Уроки](tutorials)
 - [Примеры](examples.md)
@@ -50,6 +50,6 @@ weight: 10
  - [Revit API Docs](https://www.revitapidocs.com/)
  - [RevitLookup](https://github.com/jeremytammik/RevitLookup)
 
-## Концепт
+## Концепции
 
-Доступен в следующей статье: [Концепт](concepts.md)
+Доступны в следующей статье: [Концепции](concepts.md)
