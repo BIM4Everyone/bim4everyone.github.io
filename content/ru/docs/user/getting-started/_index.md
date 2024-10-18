@@ -7,12 +7,11 @@ params:
 
 title: Начало работы
 linkTitle: Начало работы
-description:
+description: Инструкции по установке, настройке, обновлению и удалению платформы
 
-tags: [test, docs]
-categories: [Examples, Placeholders]
+tags: [docs, install, setup, delete, update, scripts, tabs, github, pyRevit, Revit, fix, errors, problems]
+categories: [docs, start, install]
 
 weight: 20
 ---
 
-Здесь будет круто...
