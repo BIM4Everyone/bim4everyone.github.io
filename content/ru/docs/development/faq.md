@@ -16,7 +16,6 @@ categories: [faq]
 weight: 70
 ---
 
-
 ## Что такое пайревит?
 
 [pyRevit](https://pyrevitlabs.notion.site/) - это среда для быстрой разработки под Autodesk Revit.
@@ -45,12 +44,36 @@ weight: 70
 Логи платформы по умолчанию пишутся в [журнал Revit](https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/Location-of-journal-files.html).
 Если у вас запущен [сервис телеметрии](https://github.com/Bim4Everyone/Bim4EveryoneTelemetry), то можно также [настроить](https://github.com/Bim4Everyone/Bim4EveryoneSetup?tab=readme-ov-file#c%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BA-%D1%82%D0%B5%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D0%B8) запись логов в него.
 
+
+Пример настройки трассировки логов в сервер телеметрии через pyRevit CLI:
+
+```
+pyrevit configs log_trace:active enable
+pyrevit configs log_trace:level information
+pyrevit configs log_trace:server_name your_telemetry_server_url
+```
+
 ## Как добавить телеметрию в платформу?
 
 [Здесь](https://pyrevitlabs.notion.site/Telemetry-System-992d72659457447f86b79cf1c9034541) вы найдёте подробную инструкцию по настройке телеметрии в pyRevit.
 Вы можете развернуть свой сервис телеметрии, используя репозиторий [Bim4EveryoneTelemetry](https://github.com/Bim4Everyone/Bim4EveryoneTelemetry).
 Настройки телеметрии можно задать прямо в [установщике платформы](https://github.com/Bim4Everyone/Bim4EveryoneSetup?tab=readme-ov-file#c%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BA-%D1%82%D0%B5%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D0%B8) при его сборке, или указать через [pyRevit CLI](https://pyrevitlabs.notion.site/Configure-pyRevit-07446b4e07b7429091c89f472ef39136).
 
+Пример настройки телеметрии через pyRevit CLI:
+
+```
+pyrevit configs telemetry enable
+pyrevit configs telemetry utc yes
+pyrevit configs telemetry server your_telemetry_server_url
+pyrevit configs apptelemetry enable
+pyrevit configs apptelemetry flags 0x4000400004003
+pyrevit configs apptelemetry server your_telemetry_server_url
+pyrevit configs log_trace:active enable
+pyrevit configs log_trace:level information
+pyrevit configs log_trace:server_name your_telemetry_server_url
+```
+
+По умолчанию заданные  настройки сохраняются в **%ProgramData%\pyRevit\pyRevit_config.ini**
 
 ## Как зарепортить баг в платформе?
 
@@ -68,3 +91,9 @@ weight: 70
 На данный момент платформа поддерживается для 2022, 2023, 2024 версий Revit.
 Поддержка более старых версий не осуществляется.
 Если необходимо, можно при помощи [pyRevit CLI](https://pyrevitlabs.notion.site/Attach-pyRevit-to-Installed-Revits-abf190044ffc4ac29671152ec9b91335) включить pyRevit на других версиях Revit, но стабильная работа платформы на них не гарантируется.
+
+Пример команды для включения 2021 версии:
+
+```
+pyrevit attach master default 2021
+```
