@@ -3,7 +3,7 @@ date: :git
 draft: false
 
 params:
-  author: dosymep
+  author: DivinN
   
 title: Параметры платформы
 linkTitle: Параметры платформы
